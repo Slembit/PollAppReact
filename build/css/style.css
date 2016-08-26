@@ -1,0 +1,12 @@
+html, body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+#connection-status {
+  width: 5em;
+  height: 5em;
+  border-radius: 5em;
+  display: block; }
+  #connection-status.connected {
+    background-color: green; }
+  #connection-status.disconnected {
+    background-color: red; }
